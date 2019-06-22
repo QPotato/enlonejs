@@ -1,5 +1,5 @@
 # enlonejs
-Javascript wrapper for enl.one API
+Javascript wrapper for enl.one APIs
 
 Install with:
 
@@ -31,3 +31,5 @@ const v = new V.VEnlOne({apikey: 'YOUR API KEY GOES HERE'});
     console.log(await v.location(quantic.enlid))
 })();
 ```
+
+Right now only V is implemented. Future plans are to add STRIKE and Status.
