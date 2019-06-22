@@ -65,7 +65,7 @@ export interface Team {
     admin: boolean;
 }
 
-export class VEnlOne {
+export class V {
     proxy: EnlOneProxyInterface;
     constructor(credentials: LoginCredentials) {
         if (credentials.apikey !== undefined)

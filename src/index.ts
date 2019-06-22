@@ -1,3 +1,1 @@
-import * as V from './v';
-
-export default { V }
+export * from './v';
